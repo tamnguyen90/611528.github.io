@@ -1,0 +1,35 @@
+body {
+    background-color: #82a43a; 
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    font-size: 1.5em;
+
+}
+
+header h1 {
+    color: white;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+body h2 {
+    color: blue;
+}
+
+header span {
+    color: red;
+    font-weight: bold;
+}
+
+dt {
+    color: yellow;
+}
+footer {
+    display: block;
+}
+#myMood {
+    display: block;
+}
+#myMood img {
+    width: 300px;
+    height: 200px;
+}
