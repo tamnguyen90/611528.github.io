@@ -1,0 +1,35 @@
+.container {
+    border: 1px solid lightgray;
+    border-width: 2px;
+    border-style: groove;
+}
+div[class="col-sm-5"] > label {
+    font-weight: bold;
+}
+.header {
+    background-color: cadetblue;
+}
+.footer {
+    background-color: lightgray;
+    display: block;
+    text-align: center;
+}
+
+.btn {
+    margin: 5px 5px;;
+}
+div[class="row"] {
+    margin: 1.5em;
+}
+.narrator {
+    text-decoration-line: underline;
+}
+.checkboxes {
+    display: block;
+}
+.required-asterisk {
+    color: red;
+}
+textarea {
+    resize: none;
+}
