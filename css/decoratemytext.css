@@ -32,3 +32,8 @@ textarea {
     color: green;
     text-decoration: underline;
 }
+
+.backgroundImg {
+	background-image: url("https://images.pexels.com/photos/3531895/pexels-photo-3531895.jpeg");
+	background-size: cover;
+}
