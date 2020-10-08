@@ -87,3 +87,38 @@ const p1 = Object.create(professor);
 p1.setDepartment('Utopia');
 p1.greeting();
 p1.salute();
+/*
+function Person(name, age) {
+    this.name = name;
+    this.age = age;
+}
+Person.prototype.greeting = function() {
+    console.log(...)
+}
+
+Person.prototype.salute = function() {
+    console.log(...)
+}
+
+const Student = function(name, age, major) {
+    Person.call(this, name, age);
+    this.major = major;
+}
+
+Student.prototype = Object.create(Person.prototype);
+Student.prototype.greeting = function() {
+    console.log(...)
+}
+
+function Professor(name, age, department) {
+    Person.apply(this, [name, age]);
+    this.department = department;
+}
+
+Professor.prototype = Object.create(Person.prototype);
+Professor.prototype.greeting = function() {
+    console.log(...);
+}
+
+
+*/
